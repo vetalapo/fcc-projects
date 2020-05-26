@@ -1,0 +1,25 @@
+{
+    "name": "fcc-projects",
+    "version": "0.0.1",
+    "description": "FreeCodeCamp projects",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "lite-server",
+        "start": "npm run dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vetalapo/fcc-projects.git"
+    },
+    "author": "Vitaly Dushkin",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/vetalapo/fcc-projects/issues"
+    },
+    "homepage": "https://github.com/vetalapo/fcc-projects#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    }
+}
