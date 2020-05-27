@@ -1,0 +1,59 @@
+#tribute-page {
+    background: #eee;
+    color: #333;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    line-height: 1.5;
+    font-family: "Segoe UI", "Roboto", sans-serif;
+}
+
+#tribute-page #title {
+    padding-top: 35px;
+    font-size: 45px;
+}
+
+#tribute-page #img-div {
+    width: unset;
+    background: white;
+    margin: 15px;
+    padding: 20px;
+}
+
+#tribute-page #image {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#tribute-page #tribute-info, #tribute-page blockquote {
+    width: 60%;
+    margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+    #tribute-page #tribute-info {
+        width: 100%;
+    }
+}
+
+#tribute-page ul {
+    text-align: left;
+}
+
+#tribute-page blockquote {
+    border-color: black;
+    text-align: justify;
+    font-style: italic;
+}
+
+#tribute-page #tribute-link {
+    color: #477ca7;
+}
+
+#tribute-page #footer {
+    padding: 40px;
+}
