@@ -1,7 +1,7 @@
-const projectName = "tribute-page";
+const projectName = "survey-form";
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    // On document ready
+    // On Document ready
 });
 
 function getBackHome() {
