@@ -3,9 +3,15 @@
     color: white;
 }
 
+#take-home-button {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
 #header {
     position: fixed;
-    top: 50px;
+    top: 0;
     width: 100px;
     background-color: black;
 }
@@ -25,4 +31,7 @@
 
 #news-container {
     display: flex;
+}
+
+@media only screen and (max-width: 600px) {
 }

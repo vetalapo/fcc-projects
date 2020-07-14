@@ -9,22 +9,20 @@
         <link rel="stylesheet" type="text/css" href="product-landing-page.css">
     </head>
     <body>
-        <button onclick="getBackHome()">Back Home</button>
-        <hr>
+        <button id="take-home-button" onclick="getBackHome()">Back Home</button>
         <header id="header">
             <img id="header-img" src="https://www.solar-guitars.com/wp-content/themes/solar/assets/img/logo.gif">
             <nav id="nav-bar">
-                <a class="nav-link" href="#">Guitars</a>
-                <a class="nav-link" href="#">Artists</a>
-                <a class="nav-link" href="#">About Us</a>
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#about-section">About</a>
+                <a class="nav-link" href="#news-section">News</a>
+                <a class="nav-link" href="#contact-section">Contact Us</a>
             </nav>
         </header>
         <main id="main">
             <section>
                 <img id="main-image" src="https://www.solar-guitars.com/wp-content/uploads/2019/02/A27C-banner-hi.jpg">
             </section>
-            <section>
+            <section id="about-section">
                 <h1>WELCOME TO THE SOLAR GUITARS WEBSITE!</h1>
                 <p>We are a guitar company founded by and for the bedroom, studio and touring guitar player. Our objective is to create outstanding, high-quality guitars that offer premium features and construction, all at a fair price. We strongly believe in innovation; that is why we have chosen to add features like the Evertune Bridge to several of our models.</p>
                 <p>We will build your guitar according to the highest possible standards so you can concentrate on what’s important to you: creating and performing the music you love.</p>
@@ -32,7 +30,7 @@
                 <p>Ola Englund</p>
                 <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/2B6snNyPKcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
-            <section>
+            <section id="news-section">
                 <h2>NEWS</h2>
                 <div id="news-container">
                     <div>1</div>
@@ -40,10 +38,11 @@
                     <div>3</div>
                 </div>
             </section>
-            <section>
+            <section id="contact-section">
+                <h2>Contact Us</h2>
                 <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <label for="email"></label>
-                    <input id="email" type="email" placeholder="Enter your email address">
+                    <input id="email" type="email" name="email" placeholder="Enter your email address">
                     <input id="submit" type="submit">
                 </form>
             </section>
