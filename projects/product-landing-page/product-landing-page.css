@@ -7,17 +7,32 @@
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
 #header {
     position: fixed;
     top: 0;
-    width: 100px;
+    width: 100%;
     background-color: black;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-img {
+}
+
+#nav-bar {
 }
 
 #nav-bar a {
     color: white;
+}
+
+#nav-bar a:hover {
+    /* background-color: #f7f7f721; */
 }
 
 #main {
